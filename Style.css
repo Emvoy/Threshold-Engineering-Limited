@@ -13,7 +13,7 @@ html{
  
 }
 .header{
-  padding: 1.5rem 4%;
+  padding: 1.5rem 3%;
   position:fixed;
    left: 0;
   right: 0;
@@ -25,6 +25,7 @@ html{
 }
 .header img{
   width: 55px;
+  
   border-radius: 15px;
 }
 #logo{
@@ -81,6 +82,7 @@ transition: .2s;
   background: url(./image/construc6_copy.jpg);
   width: 100%;
   height: 100vh;
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -231,12 +233,13 @@ padding: 0 1rem;
 text-align: center;
 }
 .our-services{
-  padding: 5rem 7%;
+  padding: 5rem 7%;}
 
-}
+
 .our-services p{
   color: #222533;
   padding: 1rem 0;
+  text-align: center;
   font-size: 2rem;
 }
 .our-services h1{
@@ -247,6 +250,7 @@ padding: 1rem 0;
 }
 .our-services h1 span {
   color: #ffcb0f;
+ 
   
 }
 .main-service{
@@ -354,7 +358,7 @@ padding: 1rem 0;
 }
 .inner-review img{
   width: 100%;
-  height: 300px;
+  height:200px;
 }
 .inner-review i{
   position: absolute;
@@ -377,7 +381,7 @@ padding: 1rem 0;
   text-align: center;
 
 }
-.modal input{
+#email, #pwd{
   width: 95%;
   height: 42px;
   margin: 10px 1px 28px 1px;
@@ -392,6 +396,36 @@ input:valid~label{
   margin-top: -95px;
   padding-left: 8px;
   color: #026948;
+}
+#btn0{
+  
+  background: #222533;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: .2s;
+
+}
+#btn0:hover{
+  background: #ffcb0f;
+  color: #222533;
+}
+
+#btn1{
+  text-align: center;
+  background: #ffcb0f;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: .2s;
+
+}
+
+#btn1:hover{
+  background:#222533;
+  color: #ffcb0f;
 }
 /* #name{
   width: 100%;
@@ -421,8 +455,8 @@ input:valid~label{
   position: fixed; 
   background: none; 
  right: 0;
- left: 80%;
- top: 80%;
+ left: 78%;
+ top: 78%;
   color: #ffcb0f;
   border: none;
   font-size: 8rem;
@@ -463,9 +497,9 @@ input:valid~label{
   html{
     font-size: 55%;
   }
-  #menu-bar{
+  /* #menu-bar{
     display: initial;
-  }
+  } */
   .header{
     padding: 2rem;
   }
@@ -491,15 +525,24 @@ input:valid~label{
  
   }
   .inner-black-text{
-    display: none;
-    width: 100% !important; 
+  
+    width: 100% !important;
+    margin-top: 30px;
+    
+  }
+  .inner-black-text p{
+   padding: 1rem;
+  }
+
+  .main-welcome{
+    display: block;
   }
   .inner-welcome img{
-    margin-top: 20px;
+    margin: auto;
+    width: 100%;
   }
   .chose-text{
-    padding: 1rem 2rem;
-  
-  }
-  
+    padding: 1rem 2rem;}
+  .welcome-text p{
+    font-size: 1.8rem;}
 }
