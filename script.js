@@ -41,3 +41,12 @@ searchbar.onclick = () =>{
               });
           }
       });
+
+$(window).on('scroll', function() {
+    if ($(window).scrollTop() > 100) {
+      $('.back-to-top').fadeIn();
+    } else {
+      $('.back-to-top').fadeOut();
+    }
+  });
+

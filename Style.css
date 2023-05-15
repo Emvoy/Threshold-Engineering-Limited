@@ -21,7 +21,7 @@ html{
   z-index: 3;
   justify-content: space-between;
   align-items: center;
-  background: #222533;
+  background: whitesmoke;
 }
 .header img{
   width: 55px;
@@ -29,7 +29,7 @@ html{
   border-radius: 15px;
 }
 #logo{
-  color: #ffcb0f;
+  color: black;
   text-decoration: none;
   font-size: 32px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,14 +37,14 @@ html{
   
 }
 .nav a{
-  color: white;
+  color: #222533;
   font-size: 2rem;
 text-decoration: none ;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 2rem;
 }
 .nav a:hover{
-  color: #ffcb0f;
+  color:  rgb(210, 227, 83);
 }
 .icon-header i{
 color: white;
@@ -53,7 +53,7 @@ font-size: 2rem;
 cursor: pointer;
 }
 .icon-header i:hover{
-  color: #ffcb0f;
+  color:  rgb(210, 227, 83);
 }
 #menu-bar{
 display: none;
@@ -106,7 +106,7 @@ transition: .2s;
    text-transform: uppercase;
 }
 .inner-black-text h1 span {
-  color: #ffcb0f;
+  color: rgb(210, 227, 83);
   text-transform: uppercase;
 }
 .inner-black-text P{
@@ -126,7 +126,7 @@ transition: .2s;
 
 .first-btn,.second-btn{
   padding: 1.5rem 4rem;
-  background: #ffcb0f;
+  background: rgb(210, 227, 83);
   border-radius: 15px;
   text-decoration: none;
   color: #222533;
@@ -152,7 +152,7 @@ transition: .2s;
 
 .welcome-text h1{
   font-size: 40px;
-  color: #ffcb0f;
+  color: rgb(210, 227, 83);
 }
 .welcome-text p{
   font-size: 1.5rem;
@@ -161,7 +161,7 @@ transition: .2s;
 }
 .welcome-text a{
 padding: 1.5rem 4rem;
-background: #ffcb0f;
+background: rgb(210, 227, 83);
 font-size: 1.5rem;
 border-radius: 15px;
 }
@@ -185,7 +185,7 @@ border-radius: 15px;
 
 }
 .chose-us h1 span{
-  color: #ffcb0f;
+  color: rgb(210, 227, 83);
 }
 .chose-text{
   color: #222533;
@@ -209,7 +209,7 @@ border-radius: 15px;
   height: 100px;
   text-align: center;
   line-height: 100px;
-  border: 8px solid #ffcb0f;
+  border: 8px solid rgb(210, 227, 83);
   margin: 0 auto;
   border-radius: 100%;
 }
@@ -249,7 +249,7 @@ text-align: center;
 padding: 1rem 0;
 }
 .our-services h1 span {
-  color: #ffcb0f;
+  color: rgb(210, 227, 83);
  
   
 }
@@ -274,7 +274,7 @@ padding: 1rem 0;
 }
 .inner-services a{
   padding: 1.5rem 3rem;
- background: #ffcb0f;
+ background: rgb(210, 227, 83);
  color: #222533;
  border-radius: 15px;
 
@@ -297,7 +297,7 @@ padding: 1rem 0;
   margin-bottom: 20px;
 }
 .our-gallery h1 span{
-  color: #ffcb0f;
+  color: rgb(210, 227, 83);
 }
 .main-gallery{
   display: flex;
@@ -376,7 +376,7 @@ padding: 1rem 0;
 }
 .modal-title{
   text-align: center;
-  color:#ffcb0f;
+  color:rgb(210, 227, 83);
   font-size: 30px;
   text-align: center;
 
@@ -408,13 +408,13 @@ input:valid~label{
 
 }
 #btn0:hover{
-  background: #ffcb0f;
+  background: rgb(210, 227, 83);
   color: #222533;
 }
 
 #btn1{
   text-align: center;
-  background: #ffcb0f;
+  background:rgb(210, 227, 83);
   border-radius: 10px;
   text-decoration: none;
   color: white;
@@ -425,41 +425,44 @@ input:valid~label{
 
 #btn1:hover{
   background:#222533;
-  color: #ffcb0f;
+  color:rgb(210, 227, 83);
 }
-/* #name{
-  width: 100%;
-  font-size: 1.5rem;
-  height: 7vh;
-  border: 2px solid white;
-  border-radius: 10px;
-} */
-/* #email{
-  width: 100%;
-  font-size: 1.5rem;
-  height: 7vh;
-  border: 2px solid white;
-  margin-top: 10px;
-  border-radius: 10px;
-} */
-/* #text{
-  width: 100%;
-  font-size: 1.5rem;
-  height: 10vh;
-  border: 2px solid white;
-  border-radius: 10px;
-  margin-top: 10px;
-
-} */
 #btn{
   position: fixed; 
   background: none; 
  right: 0;
  left: 78%;
  top: 78%;
-  color: #ffcb0f;
+  color: rgb(210, 227, 83);
   border: none;
   font-size: 8rem;
+}
+.contact{
+  padding: 4rem 7%;
+  font-size: 70px;
+}
+.contact h2{
+  font-size: 40px;
+  color:rgb(210, 227, 83) ;
+}
+.card{
+  margin: auto;
+  padding: 3rem;
+  width: 80%;
+  height: 60vh;
+  justify-content: center;
+  left: 0;
+  right: 0;
+}
+.open-btn{
+width: 18%;
+margin: auto;
+background: #222533;
+
+height: 10vh;
+color:white;
+  border: 1px solid black;
+  font-size: 1.8rem;
 }
 
 
@@ -545,4 +548,14 @@ input:valid~label{
     padding: 1rem 2rem;}
   .welcome-text p{
     font-size: 1.8rem;}
+    .open-btn{
+      width: 80%;
+      margin: auto;
+      background: #222533;
+      
+      height: 7vh;
+      color:white;
+        border: 1px solid black;
+        font-size: 1.8rem;
+      }
 }
