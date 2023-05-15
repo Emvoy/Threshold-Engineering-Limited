@@ -50,3 +50,28 @@ $(window).on('scroll', function() {
     }
   });
 
+
+
+  // function sendMail() {
+  //   var params = {
+  //     name: document.getElementById("email").value,
+  //     name: document.getElementById("pwd").value,
+  //     name: document.getElementById("comment").value,
+  //   };
+
+  //   const serviceID = "service_v6avpsd";
+  //   const templateId = "template_ca1pnov";
+  
+  //   emailjs.send(serviceID,templateId,params)
+  //   .then(
+  //     res=>{
+  //       document.getElementById("email").value= "";
+  //       document.getElementById("pwd").value= "";
+  //       document.getElementById("comment").value= "";
+  //       console.log(res);
+  //       alert("your message as been sent successfully")
+  //     })
+  // .catch((err) => console.log(err));
+    
+  // }
+ 

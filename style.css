@@ -33,7 +33,7 @@ html{
   text-decoration: none;
   font-size: 32px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   
 }
 .nav a{
@@ -94,6 +94,7 @@ transition: .2s;
   z-index: 2;
   top: 50%;
   left: 50%;
+  justify-content: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   transform: translate(-50%, -50%);
 }
@@ -114,6 +115,7 @@ transition: .2s;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.8rem;
   margin-bottom: 25px;
+ 
 }
 .inner-black-btn{
   display: flex;
@@ -403,7 +405,7 @@ input:valid~label{
   border-radius: 15px;
   text-decoration: none;
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   transition: .2s;
 
 }
@@ -418,7 +420,7 @@ input:valid~label{
   border-radius: 10px;
   text-decoration: none;
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   transition: .2s;
 
 }
@@ -500,11 +502,16 @@ color:white;
   html{
     font-size: 55%;
   }
+  #logo{
+    font-weight: 500;
+
+  }
   /* #menu-bar{
     display: initial;
   } */
   .header{
-    padding: 2rem;
+    padding: 1rem 11%;
+    
   }
   .nav{
     position: absolute;
@@ -530,11 +537,15 @@ color:white;
   .inner-black-text{
   
     width: 100% !important;
-    margin-top: 30px;
+    margin-top: 40px;
     
+  }
+  .inner-black-text h1{
+    margin-top: 10px;
   }
   .inner-black-text p{
    padding: 1rem;
+   font-size: 18px;
   }
 
   .main-welcome{
