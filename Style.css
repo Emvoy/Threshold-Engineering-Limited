@@ -547,7 +547,9 @@ color:white;
   .chose-text{
     padding: 1rem 2rem;}
   .welcome-text p{
-    font-size: 1.8rem;}
+    font-size: 1.8rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+      font-weight: 200;                }
     .open-btn{
       width: 80%;
       margin: auto;
